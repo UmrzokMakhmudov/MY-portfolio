@@ -1,0 +1,1506 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+} 
+
+.container{
+    width: 70%;
+    height: 800px;
+    margin: 0 auto;
+    font-family: ;
+}
+
+.navbar{
+padding-left: 30px 0px 30px 0px;
+}
+.fa-bars{
+font-size: 50px;
+}
+.menu-list{
+display: flex;
+justify-content: space-between;
+}
+.atag{
+    transition: 0.9s;
+font-family: @import url(https://fonts.googleapis.com/css2?family=Give+You+Glory&display=swap);
+font-family: 'Give You Glory', handwriting;
+font-size: 25px;
+line-height: 22px;
+color: #070707;
+
+}
+.lang{
+    color: #000000;
+    /* transform: rotate(-90deg); */
+    font-size: 20px;
+    height: 30px;
+    margin-top: 70px;
+    float: right;
+    margin: 0px;
+    float: left;
+    }
+.lang:hover{
+color: #0012b7;
+}
+.freelancer-name{
+    font-family: 'Gilroy-Bold';
+font-size: 47.3392px;
+line-height: 59px;
+display: block;
+animation: animate 2s linear infinite;
+animation-direction: alternate-reverse;
+color: #070707;
+}
+@keyframes animate {
+    0%{
+color: #000000;
+    }
+    25%{
+     color: #4e4e4e;
+
+    }
+    50%{
+     color: #777777;
+       
+    }
+    75%{
+     color: #b1b1b1;
+       
+
+    }
+    100%{
+     color: #ffffff;
+        
+
+    }
+}
+.about-freelancer{
+    display: block;
+    font-family: 'Gilroy-Medium';
+font-size: 18px;
+line-height: 22px;
+margin-top: 65px;
+margin-left: 150px;
+font-weight: 200;
+color: #070707;
+}
+.language{
+    transform: rotate(-90deg);
+    font-size: 20px;
+    height: 30px;
+    margin-top: 70px;
+    float: right;
+}
+.line{
+    color: #0a0a0a;
+    
+}
+.afterline{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around ;
+    
+}
+.imagebox{
+    width: 100%;
+    height: auto;
+}
+.image1{
+width: 100%;
+height: 400px;
+object-fit: cover;
+margin:100px auto;
+
+}
+.section{
+   
+   width: 100%;
+   height: auto; 
+   display: grid;
+   grid-template-columns:repeat(1,100%);
+    grid-template-rows: 506px 500px auto 800px;
+}
+.item-box{
+    
+}
+.card-title{
+    font-family: 'Gilroy-Bold';
+font-size: 34px;
+line-height: 42px;
+text-align: center;
+color: #070707;
+}
+
+.box1{
+    padding: 100px;
+    background-color: #f6f6f6;
+}
+.aboutmebox{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+.aboutmetext{
+    font-family: 'Gilroy-Medium';
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+font-weight: 400;
+
+/* Black */
+
+color: #070707;
+}
+.download-btn{
+    margin-top: 20px;
+    width: 30px;
+    color: #000000;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.box2{
+    padding: 100px; 
+    text-align: center;
+}
+.skillfather{
+    width: 90%;
+    height: 200px;
+   
+    margin: 0 auto;
+    display: flex;
+}
+.skillchild{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+}
+.fa-html5{
+    font-size: 70px;
+    color: rgb(221, 104, 49);
+}
+.fa-css3-alt{
+    font-size: 70px;
+    color: rgb(41, 116, 212);
+}
+.fa-camera-retro{
+    font-size: 70px;
+    color: rgb(27, 32, 39);
+}
+.fa-figma{
+    font-size: 71px;
+    color: #070707;
+}
+.box3{
+    padding: 100px;
+    background: #F6F6F6;
+}
+.portfoliophoto{
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 8px 8px 19px 6px grey;
+}
+.portfoliotext{
+    margin: 40px auto ;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    
+    /* Black */
+    
+    color: #070707; 
+}
+.alink{
+    margin: 40px auto ;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000; 
+}
+.box4{
+    padding: 100px;
+    text-align: center;
+}
+.sendbtn{
+    margin: 0 auto;
+    text-align: center;
+    width: 180px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    background-color: #000000;
+    color: white;
+    font-family: 'Gilroy-Bold';
+font-size: 18px;
+line-height: 22px;
+font-weight: 600;
+color: #FFFFFF;
+}
+.sendbtn:hover{
+background-color: #fb0b70;
+color: black;
+cursor: pointer;
+outline: none;
+}
+.socialicons{
+    width: 80%;
+    height: 100px;
+   
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.fa-linkedin{
+    font-size: 60px;
+    color: #0077b7;
+}
+.fa-instagram{
+    font-size: 60px;
+    color: #fb0b70;
+
+}
+.fa-twitter{
+    font-size: 60px;
+    color:#1d9bf0;
+
+}
+.fa-telegram{
+    font-size: 60px;
+    color: #28a8e9;
+}
+.lasttext{
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282; 
+}
+.Sendprequest{
+    width: 50%;
+    margin: 0 auto;
+    height: 300px;
+   padding: 30px;
+   background: rgb(179,180,58);
+background: linear-gradient(90deg, rgba(179,180,58,1) 0%, rgba(253,29,29,1) 53%, rgba(252,176,69,1) 100%);
+   border-radius: 100% 0% 100% 0% / 7% 94% 6% 93% ;
+   box-shadow: 8px 8px 8px 8px grey;
+}
+.email{
+    /* margin-top: 50px; */
+    width: 200px;
+    height: 30px;
+    border-radius:10px ;
+    padding-left: 20px;
+    border-color: #fb0b70;
+}
+::placeholder{
+    padding-left: 20px;
+    color: #747070;
+}
+
+
+.atag:hover{
+    color: rgb(209, 32, 32);
+}
+
+.card-title{
+    animation: moving 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes moving{
+    0%{
+color: #b70000;
+letter-spacing: 1px;
+    }
+    50%{
+    color: #0012b7;
+    letter-spacing: 3px;
+     }
+    100%{
+    color: #06b700;
+    letter-spacing: 5px;
+    }
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< starting point of media >>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Media for MObile>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media screen and (max-width: 576px){
+    .menu-list{
+    display: none;
+    }
+    .fa-bars{
+    font-size: 50px;
+    margin-left: 50px;
+    }
+    .freelancer-name{
+    font-family: 'Gilroy-Bold';
+    font-size: 20px;
+    line-height: 29px;
+    display: block;
+    color: #070707;
+    margin-top: 54px;
+    }
+    .afterline{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around ;
+    }
+    .about-freelancer{
+    display: block;
+    font-family: 'Gilroy-Medium';
+    font-size: 12px;
+    line-height: 22px;
+    margin-top: 65px;
+    margin-left: 50px;
+    font-weight: 400;
+    color: #070707;
+    }
+    .language{
+    transform: rotate(-90deg);
+    font-size: 10px;
+    height: 30px;
+    margin-top: 70px;
+    }
+    .imagebox{
+    width: 100%;
+    }
+    .image1{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin:50px auto;
+    }
+    .section{  
+   width: 100%;
+   height: auto; 
+   display: grid;
+   grid-template-columns: repeat(1,100%);
+    grid-template-rows: 306px 320px auto 600px;
+    }
+    .container{
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    font-family: ;
+    }  
+     /*  About me part>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+    .box1{
+    padding: 20px;
+    background-color: #f6f6f6;
+    }
+    .aboutmebox{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    }
+    .aboutmetext{
+    font-family: 'Gilroy-Medium';
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    font-weight: 600;
+    color: #070707;
+    }
+    /* Skills>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>?????????????????????>> */
+    .box2{
+    padding: 20px; 
+    text-align: center;
+    }
+    .skillfather{
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    }
+    .skillchild{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    padding: 10px;
+    }
+    .fa-html5{
+    font-size: 40px;
+    color: rgb(221, 104, 49);
+    }
+    .fa-css3-alt{
+    font-size: 40px;
+    color: rgb(41, 116, 212);
+    }
+    .fa-camera-retro{
+        font-size: 40px;
+        color: rgb(23, 24, 26);
+    }
+    .fa-shekel-sign{
+        font-size: 40px;
+        color: rgb(7, 100, 30);
+    }
+    .fa-figma{
+    font-size: 31px;
+    color: #070707;
+    }
+    .fa-star{
+    font-size: 11px;
+    }
+    p{
+    font-size: 13px;
+    }
+    .card-title{
+        font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    }
+    /* Portfolio part>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+    .box3{
+        padding: 30px;
+        background: #F6F6F6;
+    }
+    .portfoliophoto{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .portfoliotext{
+        margin: 20px auto ;
+        font-family: 'Gilroy-Medium';
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        text-decoration-line: underline;
+        color: #070707; 
+    }
+    .alink{
+        margin: 20px auto ;
+        font-family: 'Gilroy-Medium';
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        text-decoration-line: underline;
+        color: #000000; 
+    }
+    /* Contacts part>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+    .box4{
+        padding: 100px;
+        text-align: center;
+    }
+    .sendbtn{
+        margin: 0 auto;
+        text-align: center;
+        width: 140px;
+        height: 45px;
+        border-radius: 20px;
+        border: none;
+        background-color: #000000;
+        color: white;
+        font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #FFFFFF;
+    }
+    .socialicons{
+        width: 80%;
+        height: 100px;
+       
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+    .fa-linkedin{
+        font-size: 30px;
+        color: #0077b7;
+    }
+    .fa-instagram{
+        font-size: 30px;
+        color: #fb0b70;
+    
+    }
+    .fa-twitter{
+        font-size: 30px;
+        color:#1d9bf0;
+    
+    }
+    .fa-telegram{
+        font-size: 30px;
+        color: #28a8e9;
+    }
+    .lasttext{
+        font-family: 'Gilroy-Medium';
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #828282; 
+    }
+    .Sendprequest{
+        width: 50%;
+        margin: 0 auto;
+        height: 300px;
+       padding: 30px;
+       background: rgb(179,180,58);
+    background: linear-gradient(90deg, rgba(179,180,58,1) 0%, rgba(253,29,29,1) 53%, rgba(252,176,69,1) 100%);
+       border-radius: 100% 0% 100% 0% / 7% 94% 6% 93% ;
+       box-shadow: 8px 8px 8px 8px grey;
+    }
+    .email{
+        /* margin-top: 50px; */
+        width: 100px;
+        height: 30px;
+        border-radius:10px ;
+        padding-left: 10px;
+        border-color: #fb0b70;
+    }
+    ::placeholder{
+        padding-left: 0px;
+        color: #747070;
+    }
+    }
+    /* starting point of mini tablet media funktion>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+    @media screen and (min-width: 577px){
+        .navbar{
+            padding-left: 30px 0px 30px 0px;
+            }
+        .menu-list{
+        display: flex;
+        margin: 30px 10px 20px 10px;
+        }
+        .fa-bars{
+        display: none;
+        }
+        .freelancer-name{
+        font-family: 'Gilroy-Bold';
+        font-size: 38px;
+        line-height: 29px;
+        display: block;
+        color: #070707;
+        margin-top: 54px;
+        }
+        .afterline{
+        width: 90%;
+        height: auto;
+        display: flex;
+        justify-content: space-around ;
+        }
+        .about-freelancer{
+        display: block;
+        font-family: 'Gilroy-Medium';
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: 65px;
+        margin-left: 50px;
+        font-weight: 400;
+        color: #070707;
+        }
+        .language{
+        transform: rotate(-90deg);
+        font-size: 18px;
+        height: 30px;
+        margin-top: 70px;
+        }
+        .imagebox{
+        width: 100%;
+
+        }
+        .image1{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        margin:50px auto;
+        }
+        .section{  
+       width: 100%;
+       height: auto; 
+       display: grid;
+       grid-template-columns: repeat(1,100%);
+        grid-template-rows: 306px 320px auto 600px;
+        }
+        .container{
+        width: 100%;
+        height: 500px;
+        margin: 0 auto;
+        font-family: ;
+        }  
+         /*  About me part>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+        .box1{
+        padding: 30px;
+        background-color: #f6f6f6;
+        }
+        .aboutmebox{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        }
+        .aboutmetext{
+        font-family: 'Gilroy-Medium';
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        font-weight: 600;
+        color: #070707;
+        }
+        /* Skills>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>?????????????????????>> */
+        .box2{
+        padding: 20px; 
+        text-align: center;
+        }
+        .skillfather{
+        width: 100%;
+        height: 200px;
+        margin: 0 auto;
+        display: flex;
+        }
+        .skillchild{
+        width: 20%;
+        height: 100%;
+        text-align: center;
+        padding: 20px;
+        }
+        .fa-html5{
+        font-size: 50px;
+        color: rgb(221, 104, 49);
+        }
+        .fa-css3-alt{
+        font-size: 50px;
+        color: rgb(41, 116, 212);
+        }
+        .fa-camera-retro{
+            font-size: 50px;
+            color: rgb(43, 50, 58);
+        }
+        .fa-shekel-sign{
+            font-size: 50px;
+            color: rgb(7, 100, 30);
+        }
+        .fa-figma{
+        font-size: 50px;
+        color: #070707;
+        }
+        .fa-star{
+        font-size: 13px;
+        }
+        p{
+        font-size: 14px;
+        }
+        .card-title{
+            font-family: 'Gilroy-Bold';
+        font-size: 30px;
+        line-height: 42px;
+        text-align: center;
+        color: #070707;
+        }
+        /* Portfolio part>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+        .box3{
+            padding: 50px;
+            background: #F6F6F6;
+        }
+        .portfoliophoto{
+            width: 100%;
+            margin: 0 auto;
+        }
+        .portfoliotext{
+            margin: 20px auto ;
+            font-family: 'Gilroy-Medium';
+            font-size: 26px;
+            line-height: 22px;
+            text-align: center;
+            text-decoration-line: underline;
+            color: #070707; 
+        }
+        .alink{
+            margin: 20px auto ;
+            font-family: 'Gilroy-Medium';
+            font-size: 20px;
+            line-height: 22px;
+            text-align: center;
+            text-decoration-line: underline;
+            color: #000000; 
+        }
+        /* Contacts part>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+        .box4{
+            padding: 100px;
+            text-align: center;
+        }
+        .sendbtn{
+            margin: 0 auto;
+            text-align: center;
+            width: 180px;
+            height: 45px;
+            border-radius: 20px;
+            border: none;
+            background-color: #000000;
+            color: white;
+            font-family: 'Gilroy-Bold';
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 600;
+        color: #FFFFFF;
+        }
+        .socialicons{
+            width: 80%;
+            height: 100px;
+           
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+        .fa-linkedin{
+            font-size: 30px;
+            color: #0077b7;
+        }
+        .fa-instagram{
+            font-size: 30px;
+            color: #fb0b70;
+        
+        }
+        .fa-twitter{
+            font-size: 30px;
+            color:#1d9bf0;
+        
+        }
+        .fa-telegram{
+            font-size: 30px;
+            color: #28a8e9;
+        }
+        .lasttext{
+            font-family: 'Gilroy-Medium';
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            color: #828282; 
+        }
+    
+        }
+        /* Starting point of madia function for tab>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+        @media screen and (min-width: 768px){
+            .navbar{
+                padding-left: 30px 0px 30px 0px;
+                }
+            .menu-list{
+            display: flex;
+            margin: 30px 10px 20px 10px;
+            }
+            .fa-bars{
+            display: none;
+            }
+            .freelancer-name{
+            font-family: 'Gilroy-Bold';
+            font-size: 45px;
+            line-height: 39px;
+            display: block;
+            color: #070707;
+            margin-top: 54px;
+            }
+            .afterline{
+            width: 90%;
+            height: auto;
+            display: flex;
+            justify-content: space-around ;
+            }
+            .about-freelancer{
+            display: block;
+            font-family: 'Gilroy-Medium';
+            font-size: 22px;
+            line-height: 22px;
+            margin-top: 79px;
+            margin-left: 50px;
+            font-weight: 400;
+            color: #070707;
+            }
+            .language{
+            transform: rotate(-90deg);
+            font-size: 22px;
+            height: 30px;
+            margin-top: 70px;
+            }
+            .imagebox{
+            width: 95%;
+            margin: 0 auto;
+            height: auto;
+    
+            }
+            .image1{
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            margin:50px auto;
+            }
+            .section{  
+           width: 100%;
+           height: auto; 
+           display: grid;
+           grid-template-columns: repeat(1,100%);
+            grid-template-rows: 356px 350px auto 600px;
+            }
+            .container{
+            width: 100%;
+            height: 750px;
+            margin: 0 auto;
+            font-family: ;
+            }  
+             /*  About me part>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+            .box1{
+            padding: 40px;
+            background-color: #f6f6f6;
+            }
+            .aboutmebox{
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+            }
+            .aboutmetext{
+            font-family: 'Gilroy-Medium';
+            font-size: 20px;
+            line-height: 18px;
+            text-align: center;
+            font-weight: 600;
+            color: #070707;
+            }
+            /* Skills>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>?????????????????????>> */
+            .box2{
+            padding: 40px; 
+            text-align: center;
+            height: auto;
+            }
+            .skillfather{
+            width: 100%;
+            height: 500px;
+            margin: 0 auto;
+            display: flex;
+            }
+            .skillchild{
+            width: 20%;
+            height: 100%;
+            text-align: center;
+            padding: 20px;
+            }
+            .fa-html5{
+            font-size: 50px;
+            color: rgb(221, 104, 49);
+            }
+            .fa-css3-alt{
+            font-size: 50px;
+            color: rgb(41, 116, 212);
+            }
+            .fa-camera-retro{
+                font-size: 50px;
+                color: rgb(32, 35, 39);
+            }
+            .fa-shekel-sign{
+                font-size: 50px;
+                color: rgb(7, 100, 30);
+            }
+            .fa-figma{
+            font-size: 50px;
+            color: #070707;
+            }
+            .fa-star{
+            font-size: 13px;
+            }
+            p{
+            font-size: 14px;
+            }
+            .card-title{
+                font-family: 'Gilroy-Bold';
+            font-size: 36px;
+            line-height: 42px;
+            text-align: center;
+            color: #070707;
+            }
+            /* Portfolio part>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+            .box3{
+                padding: 50px;
+                background: #F6F6F6;
+            }
+            .portfoliophoto{
+                width: 100%;
+                margin: 0 auto;
+            }
+            .portfoliotext{
+                margin: 20px auto ;
+                font-family: 'Gilroy-Medium';
+                font-size: 26px;
+                line-height: 22px;
+                text-align: center;
+                text-decoration-line: underline;
+                color: #070707; 
+            }
+            .alink{
+                margin: 20px auto ;
+                font-family: 'Gilroy-Medium';
+                font-size: 23px;
+                line-height: 22px;
+                text-align: center;
+                text-decoration-line: underline;
+                color: #000000; 
+            }
+            /* Contacts part>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+            .box4{
+                padding: 100px;
+                text-align: center;
+            }
+            .sendbtn{
+                margin: 0 auto;
+                text-align: center;
+                width: 180px;
+                height: 45px;
+                border-radius: 20px;
+                border: none;
+                background-color: #000000;
+                color: white;
+                font-family: 'Gilroy-Bold';
+            font-size: 18px;
+            line-height:22px;
+            font-weight: 600;
+            color: #FFFFFF;
+            }
+            .socialicons{
+                width: 80%;
+                height: 100px;
+               
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-around;
+                margin-bottom: 20px;
+            }
+            .fa-linkedin{
+                font-size: 60px;
+                color: #0077b7;
+            }
+            .fa-instagram{
+                font-size: 60px;
+                color: #fb0b70;
+            
+            }
+            .fa-twitter{
+                font-size: 60px;
+                color:#1d9bf0;
+            
+            }
+            .fa-telegram{
+                font-size: 60px;
+                color: #28a8e9;
+            }
+            .lasttext{
+                font-family: 'Gilroy-Medium';
+                font-size: 20px;
+                line-height: 17px;
+                text-align: center;
+                color: #828282; 
+            }
+            .Sendprequest{
+                width: 50%;
+                margin: 0 auto;
+                height: 300px;
+               padding: 30px;
+               background: rgb(179,180,58);
+            background: linear-gradient(90deg, rgba(179,180,58,1) 0%, rgba(253,29,29,1) 53%, rgba(252,176,69,1) 100%);
+               border-radius: 100% 0% 100% 0% / 7% 94% 6% 93% ;
+               box-shadow: 8px 8px 8px 8px grey;
+            }
+            .email{
+                /* margin-top: 50px; */
+                width: 100px;
+                height: 30px;
+                border-radius:10px ;
+                padding-left: 10px;
+                border-color: #fb0b70;
+            }
+            ::placeholder{
+                padding-left: 0px;
+                color: #747070;
+            }
+            }
+            /* Starting point of media function for Desctops and Laoptops >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>. */
+            @media screen and (min-width: 992px){
+                .container{
+                    width: 90%;
+                    height: 800px;
+                    margin: 0 auto;
+                    font-family: ;
+                }
+                
+                .navbar{
+                padding-left: 30px 0px 30px 0px;
+                }
+                .fa-bars{
+                font-size: 50px;
+                }
+                .menu-list{
+                display: flex;
+                justify-content: space-between;
+                }
+                .atag{
+                font-family: @import url(https://fonts.googleapis.com/css2?family=Give+You+Glory&display=swap);
+                font-family: 'Give You Glory', handwriting;
+                font-size: 25px;
+                line-height: 22px;
+                color: #070707;
+                }
+                .freelancer-name{
+                    font-family: 'Gilroy-Bold';
+                font-size: 47.3392px;
+                line-height: 59px;
+                display: block;
+                /* Black */
+                color: #070707;
+                }
+                .about-freelancer{
+                    display: block;
+                    font-family: 'Gilroy-Medium';
+                font-size: 25px;
+                line-height: 22px;
+                margin-top: 115px;
+                margin-left: 150px;
+                font-weight: 400;
+                color: #070707;
+                }
+                .language{
+                    transform: rotate(-90deg);
+                    font-size: 25px;
+                    height: 30px;
+                    margin-top: 70px;
+                }
+                .line{
+                    color: #0a0a0a;
+                    
+                }
+                .afterline{
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    justify-content: space-around ;
+                    
+                }
+                .imagebox{
+                    width: 100%;
+                }
+                .image1{
+                width: 100%;
+                height: 500px;
+                object-fit: cover;
+                margin:50px auto;
+                }
+                .section{
+                   
+                   width: 100%;
+                   height: auto; 
+                   display: grid;
+                   grid-template-columns:repeat(1,100%);
+                    grid-template-rows: 506px 500px auto 600px;
+                }
+                .item-box{
+                    
+                }
+                .card-title{
+                    font-family: 'Gilroy-Bold';
+                font-size: 40px;
+                line-height: 42px;
+                text-align: center;
+                color: #070707;
+                }
+                
+                .box1{
+                    padding: 100px;
+                    background-color: #f6f6f6;
+                }
+                .aboutmebox{
+                    width: 80%;
+                    margin: 0 auto;
+                    text-align: center;
+                }
+                .aboutmetext{
+                    font-family: 'Gilroy-Medium';
+                font-size: 25px;
+                line-height: 28px;
+                text-align: center;
+                font-weight: 600;
+                color: #070707;
+                }
+                .download-btn{
+                    margin-top: 30px;
+                    width: 30px;
+                    font-size: 30px;
+                    color: #000000;
+                    font-weight: 500;
+                    text-decoration: underline;
+                }
+                
+                .box2{
+                    padding: 100px; 
+                    text-align: center;
+                }
+                .skillfather{
+                    width: 90%;
+                    height: 200px;
+                   
+                    margin: 0 auto;
+                    display: flex;
+                }
+                .skillchild{
+                    width: 20%;
+                    height: 100%;
+                    text-align: center;
+                    padding: 20px;
+                }
+                .fa-html5{
+                    font-size: 70px;
+                    color: rgb(221, 104, 49);
+                }
+                .fa-css3-alt{
+                    font-size: 70px;
+                    color: rgb(41, 116, 212);
+                }
+                .fa-camera-retro{
+                    font-size: 70px;
+                    color: rgb(30, 33, 37);
+                }
+                .fa-shekel-sign{
+                    font-size: 70px;
+                    color: rgb(7, 100, 30);
+                }
+                p{
+                    font-size: 20px;
+                }
+               
+                .fa-figma{
+                    font-size: 71px;
+                    color: #070707;
+                }
+                .box3{
+                    padding: 100px;
+                    background: #F6F6F6;
+                }
+                .portfoliophoto{
+                    width: 100%;
+                    margin: 0 auto;
+                }
+                .portfoliotext{
+                    margin: 40px auto ;
+                    font-family: 'Gilroy-Medium';
+                    font-size: 18px;
+                    line-height: 22px;
+                    text-align: center;
+                    text-decoration-line: underline;
+                    
+                    /* Black */
+                    
+                    color: #070707; 
+                }
+                .alink{
+                    margin: 40px auto ;
+                    font-family: 'Gilroy-Medium';
+                    font-size: 24px;
+                    line-height: 22px;
+                    text-align: center;
+                    text-decoration-line: underline;
+                    color: #000000; 
+                }
+                .box4{
+                    padding: 100px;
+                    text-align: center;
+                }
+                .sendbtn{
+                    margin: 0 auto;
+                    text-align: center;
+                    width: 180px;
+                    height: 45px;
+                    border-radius: 20px;
+                    border: none;
+                    background-color: #000000;
+                    color: white;
+                    font-family: 'Gilroy-Bold';
+                font-size: 18px;
+                line-height: 22px;
+                font-weight: 600;
+                color: #FFFFFF;
+                }
+                .socialicons{
+                    width: 80%;
+                    height: 100px;
+                   
+                    margin: 0 auto;
+                    display: flex;
+                    justify-content: space-around;
+                    margin-bottom: 20px;
+                }
+                .fa-linkedin{
+                    font-size: 60px;
+                    color: #0077b7;
+                }
+                .fa-instagram{
+                    font-size: 60px;
+                    color: #fb0b70;
+                
+                }
+                .fa-twitter{
+                    font-size: 60px;
+                    color:#1d9bf0;
+                
+                }
+                .fa-telegram{
+                    font-size: 60px;
+                    color: #28a8e9;
+                }
+                .lasttext{
+                    font-family: 'Gilroy-Medium';
+                    font-size: 18px;
+                    line-height: 17px;
+                    text-align: center;
+                    color: #828282; 
+                }
+                }
+
+                /* starting point of media function for large desktop >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+                @media screen and (min-width: 1200px){
+                    .container{
+                        width: 85%;
+                        height: 800px;
+                        margin: 0 auto;
+                        font-family: ;
+                    }
+                    
+                    .navbar{
+                    padding-left: 30px 0px 30px 0px;
+                    }
+                    .fa-bars{
+                    font-size: 50px;
+                    }
+                    .menu-list{
+                    display: flex;
+                    justify-content: space-between;
+                    }
+                    .atag{
+                    font-family: @import url(https://fonts.googleapis.com/css2?family=Give+You+Glory&display=swap);
+                    font-family: 'Give You Glory', handwriting;
+                    font-size: 25px;
+                    line-height: 22px;
+                    color: #070707;
+                    }
+                    .freelancer-name{
+                        font-family: 'Gilroy-Bold';
+                    font-size: 47.3392px;
+                    line-height: 59px;
+                    display: block;
+                    color: #070707;
+                    }
+                    .about-freelancer{
+                        display: block;
+                        font-family: 'Gilroy-Medium';
+                    font-size: 29px;
+                    line-height: 22px;
+                    margin-top: 115px;
+                    margin-left: 150px;
+                    font-weight: 400;
+                    color: #070707;
+                    }
+                    .language{
+                        transform: rotate(-90deg);
+                        font-size: 25px;
+                        height: 30px;
+                        margin-top: 70px;
+                    }
+                    .line{
+                        color: #0a0a0a;
+                        
+                    }
+                    .afterline{
+                        width: 100%;
+                        height: auto;
+                        display: flex;
+                        justify-content: space-around ;
+                        
+                    }
+                    .imagebox{
+                        width: 100%;
+                    }
+                    .image1{
+                    width: 100%;
+                    height: 500px;
+                    object-fit: cover;
+                    margin:50px auto;
+                    }
+                    .section{
+                       
+                       width: 100%;
+                       height: auto; 
+                       display: grid;
+                       grid-template-columns:repeat(1,100%);
+                        grid-template-rows: 506px 500px auto 600px;
+                    }
+                    .item-box{
+                        
+                    }
+                    .card-title{
+                        font-family: 'Gilroy-Bold';
+                    font-size: 40px;
+                    line-height: 42px;
+                    text-align: center;
+                    color: #070707;
+                    }
+                    
+                    .box1{
+                        padding: 100px;
+                        background-color: #f6f6f6;
+                    }
+                    .aboutmebox{
+                        width: 80%;
+                        margin: 0 auto;
+                        text-align: center;
+                    }
+                    .aboutmetext{
+                        font-family: 'Gilroy-Medium';
+                    font-size: 25px;
+                    line-height: 28px;
+                    text-align: center;
+                    font-weight: 600;
+                    color: #070707;
+                    }
+                    .download-btn{
+                        margin-top: 30px;
+                        width: 30px;
+                        font-size: 30px;
+                        color: #000000;
+                        font-weight: 500;
+                        text-decoration: underline;
+                    }
+                    
+                    .box2{
+                        padding: 100px; 
+                        text-align: center;
+                    }
+                    .skillfather{
+                        width: 90%;
+                        height: 200px;
+                       
+                        margin: 0 auto;
+                        display: flex;
+                    }
+                    .skillchild{
+                        width: 20%;
+                        height: 100%;
+                        text-align: center;
+                        padding: 20px;
+                    }
+                    .fa-html5{
+                        font-size: 70px;
+                        color: rgb(221, 104, 49);
+                    }
+                    .fa-css3-alt{
+                        font-size: 70px;
+                        color: rgb(41, 116, 212);
+                    }
+                    .fa-camera-retro{
+                        font-size: 70px;
+                        color: rgb(30, 33, 37);
+                    }
+                    .fa-shekel-sign{
+                        font-size: 70px;
+                        color: rgb(7, 100, 30);
+                    }
+                    p{
+                        font-size: 20px;
+                    }
+                   .fa-star{
+                    font-size: 30px;
+                   }
+                    .fa-figma{
+                        font-size: 71px;
+                        color: #070707;
+                    }
+                    .box3{
+                        padding: 100px;
+                        background: #F6F6F6;
+                    }
+                    .portfoliophoto{
+                        width: 100%;
+                        margin: 0 auto;
+                    }
+                    .portfoliotext{
+                        margin: 40px auto ;
+                        font-family: 'Gilroy-Medium';
+                        font-size: 18px;
+                        line-height: 22px;
+                        text-align: center;
+                        text-decoration-line: underline;
+                        
+                        /* Black */
+                        
+                        color: #070707; 
+                    }
+                    .alink{
+                        margin: 40px auto ;
+                        font-family: 'Gilroy-Medium';
+                        font-size: 24px;
+                        line-height: 22px;
+                        text-align: center;
+                        text-decoration-line: underline;
+                        color: #000000; 
+                    }
+                    .box4{
+                        padding: 100px;
+                        text-align: center;
+                    }
+                    .sendbtn{
+                        margin: 0 auto;
+                        text-align: center;
+                        width: 180px;
+                        height: 45px;
+                        border-radius: 20px;
+                        border: none;
+                        background-color: #000000;
+                        color: white;
+                        font-family: 'Gilroy-Bold';
+                    font-size: 18px;
+                    line-height: 22px;
+                    font-weight: 600;
+                    color: #FFFFFF;
+                    }
+                    .socialicons{
+                        width: 80%;
+                        height: 100px;
+                       
+                        margin: 0 auto;
+                        display: flex;
+                        justify-content: space-around;
+                        margin-bottom: 20px;
+                    }
+                    .fa-linkedin{
+                        font-size: 60px;
+                        color: #0077b7;
+                    }
+                    .fa-instagram{
+                        font-size: 60px;
+                        color: #fb0b70;
+                    
+                    }
+                    .fa-twitter{
+                        font-size: 60px;
+                        color:#1d9bf0;
+                    
+                    }
+                    .fa-telegram{
+                        font-size: 60px;
+                        color: #28a8e9;
+                    }
+                    .lasttext{
+                        font-family: 'Gilroy-Medium';
+                        font-size: 18px;
+                        line-height: 17px;
+                        text-align: center;
+                        color: #828282; 
+                    }
+                    }
